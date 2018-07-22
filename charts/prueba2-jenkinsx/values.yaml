@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.43.249.186:5000/smpedreira/prueba2-jenkinsx
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: prueba2-jenkinsx
